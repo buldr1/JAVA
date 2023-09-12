@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class IMC {
+public class Exercicio8 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -10,9 +10,7 @@ public class IMC {
 
         System.out.print("Digite o seu peso em quilogramas: ");
         double peso = scanner.nextDouble();
-
         double imc = peso / (altura * altura);
-
         System.out.println("Seu IMC é: " + imc);
 
         if (imc < 18.5) {
@@ -27,8 +25,7 @@ public class IMC {
             System.out.println("Obesidade moderada.");
         } else {
             System.out.println("Obesidade mórbida.");
-        }
-
-        scanner.close();
+        } 
+         scanner.close();
     }
 }
