@@ -11,10 +11,10 @@ public class NumeroPrimo {
             boolean ePrimo = true;
             for (int div = 2; div < (n -1 ); div++) {
                 if ( n % div == 0) {
-                    System.out.println("Consegui dividir por:" + div);
+                    System.out.println("Consegui dividir por: " + div);
                     ePrimo = false;
                 }
-            }  if (ePrimo) {
+            }if (ePrimo) {
                 System.out.println("É primo");
             } else {
                 System.out.println(" Não é primo");
