@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class Semana {
+public class DiasDaSemana {
     public static void main(String[] args) {
         int dia = Integer.parseInt(JOptionPane.showInputDialog("Digite um número de 1 a 7: "));
         switch (dia) {
