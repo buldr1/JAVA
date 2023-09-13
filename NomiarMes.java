@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class Mes {
+public class NomiarMes {
     public static void main(String[] args) {
         int mes = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero de 1 a 12: "));
         switch (mes) {
