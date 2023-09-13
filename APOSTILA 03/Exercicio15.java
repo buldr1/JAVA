@@ -8,7 +8,6 @@ public class Exercicio15 {
         double comissao = Double.parseDouble(JOptionPane.showInputDialog("Digite a comissão"));
         double salarioBruto = valorPorHora * horasTrabalhadas;
         double salarioLiquido = 0;
-       
         if (imposto != 1 && imposto != 0) {
             JOptionPane.showMessageDialog(null, "Opção de imposto inválida");
         } else {
