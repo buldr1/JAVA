@@ -1,4 +1,5 @@
 public class Exercicio15 {
+    
     public static void main(String[] args) {
         double valorPorHora = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor por hora: "));
         int horasTrabalhadas = Integer
