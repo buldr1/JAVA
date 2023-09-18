@@ -1,3 +1,4 @@
+package CLASS;
 import java.util.Scanner;
 
 public class Repeticao {

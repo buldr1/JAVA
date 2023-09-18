@@ -1,5 +1,6 @@
+package CLASS;
 import javax.swing.JOptionPane;
-    public class CompareTo {
+    public class CompareTO {
     public static void main(String[] args) {
     String s1 = JOptionPane.showInputDialog("Qual a primeira string?");
     String s2 = JOptionPane.showInputDialog("Qual a segunda string?");
