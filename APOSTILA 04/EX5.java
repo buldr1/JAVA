@@ -25,7 +25,7 @@ public class EX5 {
         double termo = (divindendo/ divisor);
         System.out.println("termo" + termo);
         if (expoente % 2 == 0) {
-        s = s + termo;
+        s = s - termo;
         } else {
         s = s + termo;
         }
