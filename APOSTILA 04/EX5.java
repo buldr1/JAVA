@@ -13,11 +13,21 @@ public class EX5 {
         for (int expoente = 2; expoente < quantidade + 2; expoente ++) {
         double divindendo = Math.pow(x, expoente);
         double divisor = 1;
+            
+        switch ((expoente - 1) % 6) {
+            case 1 -> divisor = 1;
+            case 2 -> divisor = 2;
+            case 3 -> divisor = 6;
+            case 4 -> divisor = 24;
+            case 5 -> divisor = 6;
+            case 6 -> divisor = 2;
+        }
         double termo = (divindendo/ divisor);
-            if (expoente % 2 == 0) {
-            s = s + termo;
-            } else {
-            s = s + termo;
+        System.out.println("termo" + termo);
+        if (expoente % 2 == 0) {
+        s = s + termo;
+        } else {
+        s = s + termo;
         }
         }
         double dividendo = Math.pow(x, 2);
@@ -28,5 +38,5 @@ public class EX5 {
         System.out.println(s);
         leitor.close();
     }
-    
+
 }
