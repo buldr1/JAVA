@@ -8,6 +8,7 @@ public class TesteLivroDeNotas {
         String segundoCurso = JOptionPane.showInputDialog("Querido professor, qual o nome do segundo curso?");
         LivroDeNotas livroDeNotas1 = new LivroDeNotas(primeiroCurso);
         LivroDeNotas livroDeNotas2 = new LivroDeNotas(segundoCurso);
+        
         livroDeNotas1.exibirMensagem();
         livroDeNotas2.exibirMensagem();
     }

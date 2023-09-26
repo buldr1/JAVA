@@ -34,6 +34,5 @@ public class TesteCarro {
         System.out.println("cor: " + dois.getCor());
         System.out.println("marca: " + dois.getMarca());
         System.out.println("velocidade: " + dois.getVelocidade());
-
     }
 }
