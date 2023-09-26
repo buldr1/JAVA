@@ -1,7 +1,7 @@
 package psc23;
 
 public class LivroDeNotas {
-
+    
     private String nomeDoCurso;
 
     public LivroDeNotas(String nomeDoCurso) {
