@@ -1,4 +1,4 @@
-package CLASS;
+package psc23;
 
 public class Carro {
     private String cor;

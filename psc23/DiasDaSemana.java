@@ -1,4 +1,4 @@
-package CLASS;
+package psc23;
 import javax.swing.JOptionPane;
 
 public class DiasDaSemana {

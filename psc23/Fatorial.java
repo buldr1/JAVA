@@ -1,4 +1,4 @@
-package CLASS;
+package psc23;
 import java.util.Scanner;
 
 public class Fatorial {

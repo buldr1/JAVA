@@ -1,4 +1,4 @@
-package CLASS;
+package psc23;
 import javax.swing.JOptionPane;
 public class FormatTeste{
 public static void main(String[] args) {
