@@ -31,5 +31,6 @@ public class EX10 {
         System.out.println("menores: " + quantMenorIdade);
         System.out.println("média altura geral: " + totalAlturaGeral / 55);
         System.out.println("% > 80 Kg: " + quantPesados / 55d);
+        sc.close();
     }
 }
