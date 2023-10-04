@@ -1,19 +1,20 @@
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import java.awt.Font;
 
-public class GerenciadorDeAlunos extends JFrame {
+public class GerenciadorAlunos extends JFrame {
 
     private Font font = new Font("Arial", Font.BOLD, 32);
     JTextField login = new JTextField(30);
     JPasswordField senha = new JPasswordField(30);
 
     public static void main(String[] args) {
-        GerenciadorDeAlunos ga = new GerenciadorDeAlunos();
+        GerenciadorAlunos ga = new GerenciadorAlunos();
         ga.desenhar();
     }
 
@@ -30,6 +31,17 @@ public class GerenciadorDeAlunos extends JFrame {
         senha.setFont(font);
         painel.add(criarBotaoCancelar());
         JButton ok = new JButton("ok");
+        ok.addActionListener(acao -> {
+            if (login.getText().equals("root") &&
+                    senha.getText().equals("51")) {
+                CrudAluno ca = new CrudAluno();
+                ca.desenhar();
+                setVisible(false);
+            } else {
+                JOptionPane.showMessageDialog(this, "Login ou senha errado");
+            }
+
+        });
         painel.add(ok);
         ok.setFont(font);
         this.setVisible(true);
@@ -51,7 +63,7 @@ public class GerenciadorDeAlunos extends JFrame {
         return cancelar;
     }
 
-    public GerenciadorDeAlunos() {
+    public GerenciadorAlunos() {
         super("Login");
     }
 }
